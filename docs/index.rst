@@ -8,7 +8,8 @@ Utsav Siwakoti
 Overview
 --------
 fits2physical is a Python package to analyze FITS files, compute pixel and physical sizes, and generate plots.  
-It works for both 2D and 3D FITS data, and provides dimensions in pixels, angular, and physical units.
+It works for both 2D and 3D FITS data, and provides dimensions in pixels, angular, and physical units.  
+The figure is automatically displayed when you run the analysis.
 
 Installation
 ------------
@@ -22,7 +23,7 @@ Install via **PyPI** (recommended) or directly from **GitHub**:
 
 Usage
 -----
-The basic workflow is simple: provide a FITS file path and distance in Mpc.
+The workflow is simple: provide a FITS file path and distance in Mpc.
 
 **Example code:**
 
@@ -30,17 +31,14 @@ The basic workflow is simple: provide a FITS file path and distance in Mpc.
 
     import f2p
 
-    # Analyze FITS file
-    df, fig = f2p.analyze(
+    # Analyze FITS file and automatically display figure
+    df = f2p.analyze(
         "../data/ngc253/NGC253_sky_v1_17_1_ch3-shortmediumlong_s3d.fits",
         distance_mpc=3.5
     )
 
     # Print computed dimensions
     print(df)
-
-    # Optional: show the figure
-    fig.show()
 
 Expected Output
 ---------------
@@ -55,15 +53,9 @@ The analysis returns a table of dimensions:
 
 Figure
 ------
-Visual representation of the measured dimensions:
-
-.. image:: _static/example_plot.png
-    :alt: FITS Analysis Figure
-    :align: center
-    :width: 80%
+The figure showing the measured dimensions is automatically displayed when `analyze()` is run.
 
 Data Source / Citation
 ----------------------
 *Example FITS analysis of NGC 253.*  
-Data are from **JWST Cycle 1 GO Programme 1701 (PI: Alberto D. Bolatto et al.)**, which includes high-resolution imaging of the starburst galaxy NGC 253.  
-
+Data are from **JWST Cycle 1 GO Programme 1701 (PI: Alberto D. Bolatto et al.)**, which includes high-resolution imaging of the starburst galaxy NGC 253.
