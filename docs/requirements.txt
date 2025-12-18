@@ -1,0 +1,6 @@
+sphinx
+sphinx_rtd_theme
+matplotlib
+numpy
+astropy
+f2p
