@@ -6,3 +6,10 @@ FITS 2D/3D physical size analyzer with smart diagonal measurement.
 
 ```bash
 pip install git+https://github.com/<yourusername>/fits2physical.git
+'''
+
+#Usage
+import f2p
+
+df = f2p.analyze("path/to/fits/file.fits", distance_mpc=3.5)
+print(df)
