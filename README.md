@@ -10,6 +10,7 @@ pip install git+https://github.com/siwakotiutsav/fits2physical.git
 ```
 
 #Usage
+
 import f2p
 
 df = f2p.analyze("path/to/fits/file.fits", distance_mpc=give your distance in Mpc)
