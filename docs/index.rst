@@ -1,9 +1,6 @@
 fits2physical
 =============
 
-Author
-------
-Utsav Siwakoti
 
 Overview
 --------
@@ -65,3 +62,8 @@ Data Source / Citation
 ----------------------
 *Example FITS analysis of NGC 253.*  
 Data are from **JWST Cycle 1 GO Programme 1701 (PI: Alberto D. Bolatto et al.)**, which includes high-resolution imaging of the starburst galaxy NGC 253.
+
+
+Author
+------
+Utsav Siwakoti
