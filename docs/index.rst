@@ -6,8 +6,16 @@ Overview
 
 fits2physical is a Python package to analyze FITS files, compute pixel and physical sizes, and generate plots.
 
-Usage
------
+Installation
+============
+
+You can install `fits2physical` directly from GitHub using:
+
+.. code-block:: bash
+
+    pip install git+https://github.com/siwakotiutsav/fits2physical.git
+
+After that, use it in Python:
 
 .. code-block:: python
 
