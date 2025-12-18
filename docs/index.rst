@@ -55,6 +55,12 @@ Figure
 ------
 The figure showing the measured dimensions is automatically displayed when `analyze()` is run.
 
+.. image:: _static/example_plot.png
+    :alt: FITS Analysis Figure
+    :align: center
+    :width: 80%
+
+
 Data Source / Citation
 ----------------------
 *Example FITS analysis of NGC 253.*  
