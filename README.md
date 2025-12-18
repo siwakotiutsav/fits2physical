@@ -1,2 +1,8 @@
 # fits2physical
-This is a package developed so that you can just import it, give the fits file and it will measure the physical angular size and dimension and visualize it. 
+
+FITS 2D/3D physical size analyzer with smart diagonal measurement.
+
+## Installation
+
+```bash
+pip install git+https://github.com/<yourusername>/fits2physical.git
